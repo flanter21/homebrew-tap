@@ -12,7 +12,7 @@ class LibepoxyEgl < Formula
   conflicts_with "libepoxy"
 
   def install
-    system "meson", "setup", "build", *std_meson_args, "-Degl=yes"
+    system "meson", "setup", "build", *std_meson_args, "-Degl=yes", "-Dx11=false"
     system "meson", "compile", "-C", "build", "--verbose"
     system "meson", "install", "-C", "build"
   end
