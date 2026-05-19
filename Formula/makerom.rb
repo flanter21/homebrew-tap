@@ -1,7 +1,7 @@
 class Makerom < Formula
   desc "General purpose reading/extraction tool for Nintendo 3DS file formats"
   homepage "https://github.com/3DSGuy/Project_CTR"
-  url "https://github.com/3DSGuy/Project_CTR/archive/refs/tags/makerom-v#{version}.zip"
+  url "https://github.com/3DSGuy/Project_CTR/archive/refs/tags/makerom-v#{version}.tar.gz"
   version "0.19.0"
   sha256 "446bd23919b7e9fa10540a784202d388a0b93ef4d7165f3990481edd2aa2f946"
   license "MIT"
