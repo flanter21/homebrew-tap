@@ -8,7 +8,7 @@ class WiimmsIsoTools < Formula
   head "https://github.com/Wiimm/wiimms-iso-tools.git", branch: "master"
 
   depends_on MacfuseRequirement
-  depends on :macos
+  depends_on :macos
 
   patch :DATA
 
