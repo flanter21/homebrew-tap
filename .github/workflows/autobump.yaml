@@ -1,0 +1,18 @@
+name: "Autobump specific formulae"
+on:
+  schedule:
+  - cron: "0 0 7,14,21,28 * *"
+  workflow_dispatch:
+
+jobs:
+  autobump:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update Homebrew formula
+        uses: dawidd6/action-homebrew-bump-formula@7
+        with:
+          token: ${{secrets.PERSONAL_ACCESS_TOKEN}}
+          user_name: flanter21
+          user_email: flanter21@gmail.com
+          tap: flanter21/tap
+          livecheck: true
