@@ -3,7 +3,7 @@ class Makerom < Formula
   homepage "https://github.com/3DSGuy/Project_CTR"
   url "https://github.com/3DSGuy/Project_CTR/archive/refs/tags/makerom-v#{version}.zip"
   version "0.19.0"
-  sha256 "fedd50988ea86b85786da2ea07ee6927673a187265a3cada8c9ee74abf954980"
+  sha256 "446bd23919b7e9fa10540a784202d388a0b93ef4d7165f3990481edd2aa2f946"
   license "MIT"
   head "https://github.com/3DSGuy/Project_CTR.git", branch: "master"
 
