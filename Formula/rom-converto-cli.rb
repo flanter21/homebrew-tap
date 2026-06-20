@@ -1,8 +1,8 @@
 class RomConvertoCli < Formula
   desc "Suite for converting, (de)compressing, encrypting and decrypting ROMs"
   homepage "https://github.com/DevYukine/rom-converto"
-  url "https://github.com/DevYukine/rom-converto/archive/refs/tags/v0.8.0.tar.gz"
-  sha256 "0495e46aeab299a14b309a08d0ef9abe6346a98e824cd63b81a5cb8ea5244c94"
+  url "https://github.com/DevYukine/rom-converto/archive/refs/tags/v0.11.0.tar.gz"
+  sha256 "b67d68db2b072e4c27a56a2f2e3c2bea60bb7231567cca862d22be194c2fc759"
   license "MIT"
   head "https://github.com/DevYukine/rom-converto.git", branch: "main"
 
